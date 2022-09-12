@@ -140,7 +140,17 @@ h1 {
     background: no-repeat url("../images/achieve05.png") center;
 
 }
+/* section five styles */
 
+.eventTable div {
+    border: 1px solid black;
+}
+.eventTable {
+    text-align: center;
+}
+.headerTable {
+    text-align: left;
+}
 
 /* media queries */
 @media screen and (min-width: 576px) {
@@ -148,7 +158,7 @@ h1 {
 
     .background {
         transition: all 1s linear 1s;
-        background: no-repeat url("../images/pexels-scott-webb-305831.jpg") center;
+        background: no-repeat url("../images/pexels-scott-webb-30583.jpg") center;
         background-size: contain;
     }
     .menu__menuItem {
