@@ -166,6 +166,9 @@ h1 {
         width: 200px;
         height: 200px;
     }
+    .menu__menuItem:hover {
+        cursor: pointer;
+    }
     .logo {
         transition: all 1s linear 1s;
         margin-top: 20px;
