@@ -43,14 +43,15 @@ h1 {
 /* section two styles */
 .secondSection {
 
-    background-color: rgba(255, 190, 11, 0.75);
+    background-color: rgba(255, 190, 11, 0.95);
 }
 .menu { color: #fff;
 
 }
 .menu__menuItem {
     width: 150px;
-    height: 150px;border-radius: 10px;
+    height: 150px;
+    border-radius: 10px;
     margin: 20px;
     display: flex;
     flex-direction: column;
@@ -62,8 +63,13 @@ h1 {
     font-weight: bold;
 
 }
+
 .menu__menuItem p {
-    padding: 20px 0 0 0;
+    overflow: hidden;
+    padding-top: 10px;
+}
+.menu__menuItem:hover {
+    cursor: pointer;
 }
 .menu__menuItem_first {
     background-color: rgba(251, 86, 7, 1);
@@ -78,13 +84,44 @@ h1 {
     background-color: rgba(255, 0, 110, 1);
 }
 .logoSquare {
-    height: 40px;
-    text-align: center;   
+    height: 60px;
+    text-align: center;
     margin-bottom: 20px;
 }
 
 /* section three styles */
+.slider-container {
+    width: 80vw;
+    margin: 0 auto;
+}
 
+.slick-arrow {
+    background-color: #FFBE0B;
+}
+.slick-arrow:hover {
+    background-color: #8338EC;
+
+}
+.slide div p {
+    padding: 10px;
+}
+.slider {
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    color: black;
+}
+.sliderItem {
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+
+}
+
+.img-responsive{
+    display: block;
+    margin:auto;
+}
 
 
 
