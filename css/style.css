@@ -15,6 +15,10 @@ body {
 h1, h2, h3, h4 {
     text-align: center;
 }
+h2 {
+    font-weight: bold;
+    margin-bottom: 40px;
+}
 section {
     margin: 20px 0;
 }
@@ -35,10 +39,10 @@ section {
 
 h1 {
     font-weight: bold;
-    font-size: 36px;
+    font-size: 40px;
     color: #FB5607;
     width: 240px;
-    margin-bottom: 20px;
+    margin: 40px 0;
 }
 /* section two styles */
 .secondSection {
@@ -128,6 +132,9 @@ h1 {
 
 
 /* section four styles */
+.fourthSectionHeader {
+    color: #FB5607;
+}
 .achievements .achievements__item {
     height: 15vw;
     font-size: 28px;
@@ -178,9 +185,14 @@ h1 {
 
 }
 /* section five styles */
-
+.fiveSection {
+    padding: 40px 0;
+    background-color: rgba(58, 134, 255, .62);
+    color: #fff;
+}
 .eventTable div {
-    border: 1px solid black;
+    border: 2px #fff;
+    border-style: groove;
 }
 .eventTable {
     text-align: center;
